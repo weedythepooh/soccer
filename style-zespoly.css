@@ -1,0 +1,14 @@
+#main-banner{
+    padding: 200px 0 30px 5%;
+    width: 95%;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(230deg, rgba(255,88,1,1) 0%, rgba(255,134,0,1) 100%);
+}
+#main-banner h2{
+    font-size: 50px;
+}
+.zespol{
+    padding: 50px 5%;
+    text-align: right;
+}
