@@ -1,0 +1,15 @@
+#main-banner{
+    padding: 200px 0 30px 5%;
+    width: 95%;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(230deg, rgba(255,88,1,1) 0%, rgba(255,134,0,1) 100%);
+    font-size: 50px;
+}
+.zespoly{
+    margin: 0 2%;
+    text-align: right;
+}
+main h2{
+    margin: 10px 0;
+}

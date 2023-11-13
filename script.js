@@ -26,4 +26,5 @@ $('document').ready(function () {
 }); 
 $( function() {
     $( ".accordion" ).accordion();
+    $( ".zespoly" ).tabs();
   } );
