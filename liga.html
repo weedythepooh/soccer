@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="jquery-ui-1.13.2.custom/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="jquery-ui-1.13.2.custom/jquery-ui.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-liga.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Piłka nożna</h1>
+    </header>
+    <nav>
+        <div id="menu">
+            <img id="mobileHamburgerICO" src="main-menu.png" width="20px"/>
+            <!-- pamiętać o atrybucji(autor ikony): <a href="https://www.flaticon.com/free-icons/menu-bar" title="menu bar icons">Menu bar icons created by BomSymbols - Flaticon</a> -->
+            <h2 class="menuElement"><a href="index.html">Strona główna</a></h2>
+            <div id="zespoly" class="menuElement">
+                <h2><a href="zespoly.html">Najlepsze zespoły</a></h2>
+                <ul class="retractingElement">
+                    <li><a href="zespoly.html#brukbet">Bruk-Bet Termalica Nieciecza</a></li>
+                    <li><a href="zespoly.html#rks">RKS Radomsko</a></li>
+                    <li><a href="zespoly.html#gks-gks-mocny-tylko-w-slowach-jest">GKS Bełchatów</a></li>
+                </ul>
+            </div>
+            <div id="mecze" class="menuElement">
+                <h2><a href="zespoly2.html">Zespoły</a></h2>
+                <ul class="retractingElement">
+                    <li><a href="zespoly2.html#ekstraklasa">Ekstraklasa</a></li>
+                    <li><a href="zespoly2.html#1liga">1. liga</a></li>
+                    <li><a href="zespoly2.html#2liga">2. liga</a></li>
+                </ul>
+            </div>
+            <div id="liga" class="menuElement">
+                <h2><a href="mecze.html">Mecze</a></h2>
+                <ul class="retractingElement">
+                    <li><a href="liga.html#ekstraklasa">Ekstraklasa</a></li>
+                    <li><a href="liga.html#1liga">1. liga</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</body>
+
+<main>
+    <section id="main-banner">Tabele ligowe
+    </section>
+    <section id="ekstraklasa" class="table">
+        <h2>Ekstraklasa</h2>
+        <table>
+                <tr>
+                    <th>Lp.</th>
+                    <th>Drużyna</th>
+                    <th>Pkt.</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Slask Wroclaw</td>
+                    <td>33</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Jagiellonia</td>
+                    <td>30</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Lech Poznan</td>
+                    <td>29</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Czestochowa</td>
+                    <td>27</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>Pogon Szczecin</td>
+                    <td>26</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>Legia Warszawa</td>
+                    <td>24</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Zaglebie Lubin</td>
+                    <td>21</td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>Gornik Zabrze</td>
+                    <td>19</td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>Radomiak Radom</td>
+                    <td>18</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Stal Mielec</td>
+                    <td>18</td>
+                  </tr>
+                  <tr>
+                    <td>11</td>
+                    <td>Gliwice</td>
+                    <td>17</td>
+                  </tr>
+                  <tr>
+                    <td>12</td>
+                    <td>Warta Poznan</td>
+                    <td>17</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Korona Kielce</td>
+                    <td>16</td>
+                  </tr>
+                  <tr>
+                    <td>14</td>
+                    <td>Widzew Lodz</td>
+                    <td>16</td>
+                  </tr>
+                  <tr>
+                    <td>15</td>
+                    <td>Cracovia Krakow</td>
+                    <td>15</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Niepołomice</td>
+                    <td>13</td>
+                  </tr>
+                  <tr>
+                    <td>17</td>
+                    <td>Ruch Chorzow</td>
+                    <td>8</td>
+                  </tr>
+                  <tr>
+                    <td>18</td>
+                    <td>Lodz</td>
+                    <td>8</td>
+                  </tr>
+        </table>
+    </section>
+    <section id="1liga" class="table">
+        <h2>1.liga</h2>
+        <table>
+                <tr>
+                    <th>Lp.</th>
+                    <th>Drużyna</th>
+                    <th>Pkt.</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Odra Opole</td>
+                    <td>27</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Arka Gdynia</td>
+                    <td>26</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Lechia Gdańsk</td>
+                    <td>25</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Górnik Łęczna</td>
+                    <td>25</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>GKS Tychy</td>
+                    <td>25</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>Miedź Legnica</td>
+                    <td>23</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Motor Lublin</td>
+                    <td>23</td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>Wisła Kraków</td>
+                    <td>21</td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>Bruk-Bet Termalica Nieciecza</td>
+                    <td>20</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Wisła Płock</td>
+                    <td>20</td>
+                  </tr>
+                  <tr>
+                    <td>11</td>
+                    <td>Polonia Warszawa</td>
+                    <td>17</td>
+                  </tr>
+                  <tr>
+                    <td>12</td>
+                    <td>GKS Katowice</td>
+                    <td>17</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Stal Rzeszów</td>
+                    <td>15</td>
+                  </tr>
+                  <tr>
+                    <td>14</td>
+                    <td>Resovia Rzeszów</td>
+                    <td>14</td>
+                  </tr>
+                  <tr>
+                    <td>15</td>
+                    <td>Podbeskidzie Bielsko-Biała</td>
+                    <td>12</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Chrobry Głogów</td>
+                    <td>12</td>
+                  </tr>
+                
+        </table>
+    </section>
+</main>
+<footer>
+    <p>&copy; Mikołaj Przerada 2023
+    <a href="https://www.flaticon.com/free-icons/menu-bar" title="menu bar icons">Menu bar icons created by BomSymbols - Flaticon</a>
+    </p>
+</footer>
+</html>

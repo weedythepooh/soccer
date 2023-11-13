@@ -10,3 +10,14 @@
     padding: 50px 5%;
     text-align: right;
 }
+h2{
+    font-size: 20px;
+    margin: 20px 0;
+}
+table{
+    width: 90%;
+    border-color: black;
+}
+th{
+    background: linear-gradient(230deg, rgba(255,88,1,1) 0%, rgba(255,134,0,1) 100%);
+}
